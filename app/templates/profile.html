@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Профиль{% endblock %}
+{% block content %}
+
+<h2>Добро пожаловать в ваш профиль</h2>
+
+<p><strong>Логин:</strong> {{ user.username }}</p>
+
+<hr>
+
+<a href="{{ url_for('logout') }}" class="btn">Выйти</a>
+
+{% endblock %}
