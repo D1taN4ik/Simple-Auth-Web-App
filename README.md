@@ -47,7 +47,7 @@ cd simple-auth-web-app
 
 Запустите контейнеры:
 ```bash
-docker-compose up --build
+run_docker.sh
 ```
 Откройте браузер и перейдите по адресу:
 ```
